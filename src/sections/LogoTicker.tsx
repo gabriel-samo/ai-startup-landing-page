@@ -44,9 +44,9 @@ export const LogoTicker = () => {
               }}
               className="flex flex-none gap-14 pr-14"
             >
-              {logos.map((logo) => (
+              {logos.map((logo, index) => (
                 <img
-                  key={logo.alt}
+                  key={index}
                   src={logo.src}
                   alt={logo.alt}
                   className="h-6 w-auto"
