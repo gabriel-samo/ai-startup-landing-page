@@ -53,7 +53,7 @@ export const Testimonials = () => {
                   {testimonial.text}
                 </div>
                 <div className="flex items-center gap-3 mt-5">
-                  <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[rgb(140,69,255)] after:mix-blend-soft-light before:content-[''] before:absolute before:inset-0 before:border before:border-white/30 before:z-10 before:rounded-lg">
+                  <div className="relative after:content-[''] after:absolute after:inset-0 after:rounded-lg after:bg-[rgb(140,69,255)] after:mix-blend-soft-light before:content-[''] before:absolute before:inset-0 before:border before:border-white/30 before:z-10 before:rounded-lg">
                     <Image
                       src={testimonial.avatarImg}
                       alt={`Avatar for ${testimonial.name}`}
